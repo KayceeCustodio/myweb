@@ -11,7 +11,7 @@ def load_lottieurl(url):
     return r.json()
 
 # Set page configuration
-st.set_page_config(page_title="Programming is Fun", page_icon="💻", layout="wide")
+st.set_page_config(page_title="debug and debug again!", page_icon="💻", layout="wide")
 
 # Load local CSS
 def local_css(file_name):
@@ -35,15 +35,16 @@ except FileNotFoundError:
 
 # Header section
 with st.container():
-    st.subheader("Hi, I am Haidee Grace")
-    st.title("Discover How Fun Computer Engineering Can Be!")
+    st.subheader("Hi, I am Kaycee Custodio")
+    st.title("Discover what computer engineering do!")
     st.write(
         """
-        Welcome to my blog! Join me as I explore the exciting world of Computer Engineering.
-        I'll share insights, challenges, and the joys of being a Computer Engineering student.
+       Welcome to my blog! Join me on an exciting 
+       journey through the world of Computer Engineering as I share my experiences,
+       insights, and the challenges that come with being a Computer Engineering student.
         """
     )
-    st.write("[Message me on Gmail >](mailto:haidergrace2@gmail.com)")
+    st.write("[Message me on Gmail >](mailto:custodioace80@gmail.com.com)")
 
 # First-year perspective section
 with st.container():
