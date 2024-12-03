@@ -28,8 +28,8 @@ lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fc
 
 # Load images
 try:
-    img_contact_form = Image.open("image/nn.jpg")
-    img_github = Image.open("images/nn.jpg")
+    img_contact_form = Image.open("462571779_2093157664436894_1634821827310607071_n.jpg")
+    img_github = Image.open("462571779_2093157664436894_1634821827310607071_n.jpg")
 except FileNotFoundError:
     st.error("Image file not found. Make sure the paths are correct.")
 
@@ -51,12 +51,12 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("Computer Programming: First-Year Perspective")
+        st.header("Computer Engineering: fix and debug!")
         st.write(
             """
-            Stepping into university was a mix of excitement and nerves. 
-            Learning programming felt like discovering a new secret language.
-            From binary to algorithms, it’s been an adventure worth experiencing!
+           Starting university was a blend of excitement and nervous anticipation. 
+           Learning to program felt like unlocking a secret code.
+           From mastering binary to exploring algorithms, it’s been an incredible adventure!
             """
         )
         st.write("[Learn more >](https://www.youtube.com/watch?v=VqgUkExPvLY)")
@@ -71,37 +71,37 @@ with st.container():
     st.write("---")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_contact_form, caption="Debugging: The Ultimate Puzzle")
+        st.image(img_contact_form, caption="Debugging: try and try and try!")
     with text_column:
         st.write(
             """
-            Programming assignments are thrilling and sometimes challenging. 
-            Debugging feels like a daily workout, but the satisfaction of solving a problem is unmatched.
-            Balancing academics, personal time, and social life is a juggling act, but organization is key.
+            Programming assignments are both exciting and demanding.
+            Debugging often feels like a mental workout, but nothing beats the thrill of solving a tough problem.
+            Balancing academics, personal time, and social life can be tricky, but staying organized makes all the difference.
             """
         )
 
-# Pros and cons of programming
+
 with st.container():
     st.write("---")
     st.subheader("PROS AND CONS")
     st.write("### PROS:")
     st.write("""
-    1. Lucrative career opportunities with high demand for programmers.
-    2. Develop logical thinking and problem-solving skills.
-    3. Creativity in building unique solutions.
-    4. Flexibility in work environments, including remote work.
-    5. Continuous learning in a dynamic field.
-    6. Connect with a global community of developers.
+   1. Access to lucrative career opportunities with a growing demand for programmers.  
+2. Enhanced logical thinking and problem-solving abilities.  
+3. Opportunities to unleash creativity by designing unique solutions.  
+4. Flexible work environments, including the option to work remotely.  
+5. A dynamic field that encourages continuous learning and growth.  
+6. Connection with a global network of developers and innovators.
     """)
     st.write("### CONS:")
     st.write("""
-    1. Steep learning curve for beginners.
-    2. Sedentary work may impact physical health.
-    3. Debugging can be time-consuming and frustrating.
-    4. Rapid technological changes require continuous learning.
-    5. Isolation in some work environments.
-    6. Managing code complexity in large projects.
+    1. A steep learning curve can make it challenging for beginners.  
+2. Sedentary work may pose risks to physical health if not managed properly.  
+3. Debugging can be a time-consuming and often frustrating process.  
+4. Rapid technological advancements demand constant upskilling.  
+5. Some work environments can feel isolating at times.  
+6. Managing and maintaining code complexity in large projects can be daunting.  
     """)
 
 # Contact form section
